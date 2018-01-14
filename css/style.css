@@ -1,0 +1,51 @@
+/* CSS - MASTER */
+
+
+
+
+body {
+
+}
+
+header {
+	text-align: center; 
+	padding: 0px 15px 0; 	
+}
+
+header::after {
+	url(../images/locomotive_3.jpg);
+}
+
+footer {
+	
+}
+
+blockquote { 
+	padding: 30px 40px;  
+	font-family: 'Bitter',serif; 
+	font-size: 18px; 
+	border-left: 5px solid #9a9090;
+	margin: 20px 40px; 
+	color: #a9a9a9; 
+}
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 3px solid #1aaaaa; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .08em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+
+/* Media Queries */
