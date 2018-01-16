@@ -1,24 +1,25 @@
 /* CSS - MASTER */
 
-
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two:400,400i,700');
 
 
 body {
-
+	font-family: 'Lobster Two' Bold ; text-align: center;
 }
 
 header {
+	text-transform: uppercase;
 	text-align: center; 
-	padding: 0px 15px 0; 	
+	padding: 0px 25px 0; 	
+	font-size: 40px;
 }
 
-header::after {
-	url(../images/locomotive_3.jpg);
-}
 
-footer {
-	
-}
+/* article.attractions { width: 80%; margin: 35px auto 75px auto; } */
+/* article.attractions::after { content:''; display: block; clear: both; } */
+article.attractions aside { width: 24%; float: left; text-align: center; min-height: 140px; }
+article.attractions aside > img { width: 90%; height: 90%; border-radius: 50%; border: 5px solid rgba(224, 198, 64, 0.34); margin-bottom: 15px; }
+
 
 blockquote { 
 	padding: 30px 40px;  
@@ -49,3 +50,15 @@ blockquote {
 
 
 /* Media Queries */
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 900px) {
+
+}
+@media screen and (max-width: 600px) {
+article.attractions aside { width: 49%; float: left; text-align: center; min-height: 140px; }
+}
+
+@media screen and (max-width: 421px) {
+article.attractions aside { width: 95%; float: left; text-align: center; min-height: 140px; }
+}
