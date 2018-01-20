@@ -12,6 +12,7 @@ header {
 	text-align: center; 
 	padding: 0px 25px 0; 	
 	font-size: 40px;
+	border-bottom: .1em inset gray;
 }
 
 
