@@ -15,10 +15,13 @@ header {
 	border-bottom: .1em inset gray;
 }
 
+aside {
+	padding-top: 1em;
+}
 
 /* article.attractions { width: 80%; margin: 35px auto 75px auto; } */
 /* article.attractions::after { content:''; display: block; clear: both; } */
-article.attractions aside { width: 24%; float: left; text-align: center; min-height: 140px; }
+article.attractions aside { width: 19%; float: left; text-align: center; min-height: 140px; }
 article.attractions aside > img { width: 90%; height: 90%; border-radius: 50%; border: 5px solid rgba(224, 198, 64, 0.34); margin-bottom: 15px; }
 
 
