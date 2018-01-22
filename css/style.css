@@ -9,14 +9,15 @@ body {
 
 header {
 	text-transform: uppercase;
-	text-align: center; 
-	padding: 0px 25px 0; 	
+	text-align: center;
+	padding: 0px 25px 0;
 	font-size: 40px;
 	border-bottom: .1em inset gray;
 }
 
 aside {
 	padding-top: 1em;
+	border: 1em;
 }
 
 /* article.attractions { width: 80%; margin: 35px auto 75px auto; } */
@@ -25,13 +26,13 @@ article.attractions aside { width: 19%; float: left; text-align: center; min-hei
 article.attractions aside > img { width: 90%; height: 90%; border-radius: 50%; border: 5px solid rgba(224, 198, 64, 0.34); margin-bottom: 15px; }
 
 
-blockquote { 
-	padding: 30px 40px;  
-	font-family: 'Bitter',serif; 
-	font-size: 18px; 
+blockquote {
+	padding: 30px 40px;
+	font-family: 'Bitter',serif;
+	font-size: 18px;
 	border-left: 5px solid #9a9090;
-	margin: 20px 40px; 
-	color: #a9a9a9; 
+	margin: 20px 40px;
+	color: #a9a9a9;
 }
 
 .typewriter h1 {
@@ -40,7 +41,7 @@ blockquote {
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .08em; /* Adjust as needed */
-  animation: 
+  animation:
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
 }
